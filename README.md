@@ -1,2 +1,2 @@
 # nodejs-event-loop-blocking-demo
-Companion code for a deep dive into Node.js event loop blocking: sync crypto, heavy JSON, ReDoS, and CPU-bound work, with benchmarks and fixes.  Measure, diagnose, and fix event loop blocking in Node.js, with runnable demos, before/after benchmarks, and flamegraphs.
+This repo accompanies an article. It contains small Express servers that reproduce four common causes of event loop blocking in Node.js (synchronous crypto, large JSON parsing, a ReDoS-prone regex, and CPU-bound work), plus the fixed versions and the scripts used to measure them. Every number in the article can be reproduced with the commands below.
